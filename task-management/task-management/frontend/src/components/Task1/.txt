@@ -1,0 +1,7 @@
+const checkedSeleted = (index) => {
+   console.log(index);
+   let temp = [...data_user];
+   temp[index].isSelected = !temp[index].isSelected;
+   console.log(temp);
+     
+}
